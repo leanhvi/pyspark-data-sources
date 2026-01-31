@@ -70,7 +70,7 @@ from datetime import datetime, timezone
 from typing import Dict, List, Tuple, Any, Optional, Iterator
 from dataclasses import dataclass
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
+from urllib3.util.retry import Retry
 from enum import Enum
 
 from pyspark.sql.datasource import SimpleDataSourceStreamReader, DataSource
